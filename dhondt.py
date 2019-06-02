@@ -116,7 +116,6 @@ class dhondt():
         if not self.__mindata():
             sys.exit('Minimum data not set')
         vtot = sum(self.dcandi.values())
-        # # TODO: Finish script with the RESULTS and PARTICIPATION sections
         # ncan = len(self.dcandi)
         # if self.census < (vtot + self.blankv + self.sploitv):
         #     bvcensus = False
